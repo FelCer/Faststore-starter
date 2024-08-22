@@ -17,7 +17,10 @@
                 "imageSection": {
                     "title": "ContenedorImagen",
                     "description": "Sección de imagen Prueba de descripción",
-                    "type": "string"
+                    "type": "string",
+                    "widget": {
+                        "ui:widget": "media-gallery"
+                    }
                 },
                 "numberSection": {
                     "title": "ContenedorNumber",
