@@ -1,5 +1,7 @@
 import React from 'react';
 import Label from '../atoms/Label';
+import Image from 'next/image';
+import section from './section.module.scss'
 
 export interface RichTexProps {
     TextSection: string
@@ -17,13 +19,19 @@ const RichText = (props: RichTexProps) => {
     console.log(props)
 
     const tmp = JSON.parse(TextSection)
-    return <section>
+    return <section className={section["section-richText"]}>
 
         <Label textTitle={"Contenedor de Texto"} textContent={tmp?.blocks[0]?.text} />
 
         <div>
             <span>Contenedor de Imagen:</span>
-            <img src={ imageSection} alt="" />
+            <Image
+                src={imageSection}
+                height={100}
+                width={100}
+                alt={tmp?.blocks[0]?.text}
+            />
+            {/* <img src={ imageSection} alt="" /> */}
         </div>
 
         <Label textTitle={"Contenedor de Número"} textContent={numberSection} />

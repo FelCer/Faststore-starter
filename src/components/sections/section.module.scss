@@ -1,0 +1,11 @@
+.section-richText {
+    --data-fs-label-container-padding: 20px;
+    --data-fs-label-container-color: red;
+    --data-fs-label-container-min-width: 10rem;
+
+    [data-fs-label-container] {
+        color: var(--data-fs-label-container-color);
+        min-width: var(--data-fs-label-container-min-width);
+        padding: var(--data-fs-label-container-padding);
+    }
+}

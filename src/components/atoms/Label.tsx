@@ -5,12 +5,10 @@ export interface LabelProps {
     textContent: string
 }
 const Label = ({ textContent, textTitle }: LabelProps) => {
-    return <section>
-        <div>
-            <span>{textTitle}:</span>
-            <span>{textContent}</span>
-        </div>
-    </section>
+    return <div data-fs-label-container>
+        <span>{textTitle}:</span>
+        <span>{textContent}</span>
+    </div>
 }
 
 export default Label
