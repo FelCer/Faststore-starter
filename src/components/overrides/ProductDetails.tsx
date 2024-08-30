@@ -1,6 +1,11 @@
 import { SectionOverride } from '@faststore/core'
 import TestOverrideCustom from './TestOverrideCustom';
 
+/** In Section Override v1
+ * 
+ * https://developers.vtex.com/docs/guides/faststore/overrides-migrating-v1-to-v2
+*/
+
 const SECTION = 'ProductDetails' as const
 
 /**
