@@ -1,4 +1,6 @@
 .section-richText {
+    @import '@faststore/ui/src/components/organisms/Hero/styles.scss';
+
     --data-fs-label-container-padding: 20px;
     --data-fs-label-container-color: red;
     --data-fs-label-container-min-width: 10rem;

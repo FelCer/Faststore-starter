@@ -1,4 +1,5 @@
 import React from 'react';
+import { Label as CustomLabel } from '@faststore/ui'
 
 export interface LabelProps {
     textTitle: string
@@ -6,8 +7,10 @@ export interface LabelProps {
 }
 const Label = ({ textContent, textTitle }: LabelProps) => {
     return <div data-fs-label-container>
-        <span>{textTitle}:</span>
-        <span>{textContent}</span>
+        <CustomLabel>{textTitle}:</CustomLabel>
+        <CustomLabel>{textContent}</CustomLabel>
+        {/* <span>{textTitle}:</span>
+        <span>{textContent}</span> */}
     </div>
 }
 
