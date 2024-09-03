@@ -9,7 +9,7 @@ module.exports = {
   platform: "vtex",
   api: {
     storeId: "itgloberspartnercl",
-    workspace: "devfelc",
+    workspace: "master",
     environment: "vtexcommercestable",
     hideUnavailableItems: false,
     incrementAddress: false,
@@ -74,7 +74,7 @@ module.exports = {
   account: "storeframework",
   vtexHeadlessCms: {
     webhookUrls: [
-      "https://storeframework.myvtex.com/cms-releases/webhook-releases",
+      "https://itgloberspartnercl.myvtex.com/cms-releases/webhook-releases",
     ],
   },
 };
