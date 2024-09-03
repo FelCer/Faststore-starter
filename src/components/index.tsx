@@ -1,4 +1,4 @@
 import RichText from "./sections/RichTex";
-import ProductDetailsWithCustomButton from "./overrides/ProductDetailsWithCustomButton";
+import ProductDetails from "./ProductDetails"
 
-export default { RichText, ProductDetailsWithCustomButton };
+export default { RichText, ProductDetails };
