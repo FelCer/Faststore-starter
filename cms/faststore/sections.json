@@ -26,6 +26,30 @@
                     "title": "ContenedorNumber",
                     "description": "sección de número Prueba de descripción",
                     "type": "string"
+                },
+                "dateTime": {
+                    "type": "string",
+                    "format": "date",
+                    "widget": {
+                        "ui:widget": "date-time"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "name": "Counter",
+        "schema": {
+            "title": "ContenedorContador",
+            "description": "Prueba de contador",
+            "type": "object",
+            "properties": {
+                "dateTime": {
+                    "type": "string",
+                    "format": "date",
+                    "widget": {
+                        "ui:widget": "date-time"
+                    }
                 }
             }
         }
